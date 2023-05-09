@@ -34,7 +34,10 @@ window.onload = function(){
 
     initialize();
 
-    addMarker(-27.648598,-48.577423,'','Meu endereço personalizado!');
+    setTimeout(function(){
+        map.panTo({'lat':-23.550520,'lng':46.633309});
+    },4000);
+    
 
 
 }
